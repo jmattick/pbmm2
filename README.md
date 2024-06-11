@@ -422,6 +422,12 @@ and in the same orientation, which are the only fields that `samtools sort` uses
 
 ## Full Changelog
 
+ * 1.14.99 [early access]
+   * Remove minimum DP length threshold for HiFi preset
+
+ * 1.14.0:
+   * Add option `--include-fail-reads` for datasets
+
  * 1.13.1:
    * Documentation changes, included in SMRT Link v13.0
 
