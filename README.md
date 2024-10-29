@@ -14,14 +14,14 @@ Benchmarks show that _pbmm2_ outperforms BLASR in sequence identity,
 number of mapped bases, and especially runtime. _pbmm2_ is the official
 replacement for BLASR.
 
-## Availability
+## Binary Availability
 Latest version can be installed via bioconda package `pbmm2`.
 
 Please refer to our [official pbbioconda page](https://github.com/PacificBiosciences/pbbioconda)
 for information on Installation, Support, License, Copyright, and Disclaimer.
 
 ## Latest Version
-Version **1.13.1**: [Full changelog here](#full-changelog)
+Version **1.16.0**: [Full changelog here](#full-changelog)
 
 ## Usage
 _pbmm2_ offers following tools
@@ -422,7 +422,12 @@ and in the same orientation, which are the only fields that `samtools sort` uses
 
 ## Full Changelog
 
- * 1.14.99 [early access]
+ * 1.16.0
+   * SMRT Link 25.1 release
+   * Do not warn about aligned input for minimizer sorted unaligned BAM input
+   * There are currently no plans to update the source code on GitHub, but binary releases will continue regularly
+
+ * 1.14.99
    * Remove minimum DP length threshold for HiFi preset
 
  * 1.14.0:
